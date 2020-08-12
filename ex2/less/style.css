@@ -230,4 +230,10 @@ section {
     text-align: center;
   }
 }
+
+@media (max-width: 575px) {
+  .main-title h1 {
+    font-size: 3rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
