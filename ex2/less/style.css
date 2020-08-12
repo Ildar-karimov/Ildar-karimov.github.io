@@ -1,0 +1,233 @@
+/* Colors */
+/*ШАГ 1 - ОПРЕДЕЛИТЬ КАКИЕ ЦВЕТА, ПОВТОРЯЮЩИЕСЯ ЭЛЕМЕНТЫ ЕСТЬ*/
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+.container {
+  margin-top: 1rem;
+}
+body {
+  font-family: sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  /*убирается декорация, а именно не подчеркивается больше*/
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+  /*без обводки*/
+}
+.button {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  /*Закругление*/
+  font-size: 1.2rem;
+  background-color: #fcb303;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.2s;
+  /*что меняется в поле all и за сколько времени*/
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #e3a103;
+  /*darken - делает темнее lighten - светлее*/
+}
+/*Typography*/
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 10rem;
+  font-weight: bold;
+  font-size: 3.6rem;
+  text-align: center;
+}
+/* main */
+.main {
+  padding: 3rem 0 5rem;
+  background: #fff url(../img/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+  /*оплата по факту*/
+  /*Подзаголовок*/
+  /*главная форма*/
+}
+.main-content {
+  margin-top: 10rem;
+  /*ГЛАВНЫЙ ЗАГОЛОВОК*/
+  /*зеленый ярлык*/
+}
+.main-content h1 {
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+.main-content span {
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #46b814;
+  text-align: center;
+  /*цирфа 300 руб*/
+}
+.main-content span strong {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.main-trigger {
+  margin-top: 3rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+.main-form {
+  padding: 4rem 5rem;
+  background-color: #fff;
+  text-align: center;
+  /*заголовок формы*/
+  /*поле для ввода*/
+  /*Подписи к полям*/
+  /*Кнопка отправить заявку*/
+  /*подпись под формой*/
+}
+.main-form-header {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+}
+.main-form-header strong {
+  font-size: 1.7rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px solid #dddddd;
+  padding: 1.7rem;
+}
+.main-form label {
+  position: absolute;
+  /*вытащили из потока, остальные элементы не обращают внимания на них*/
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /*left слишком далеко двигает, поэтому обратно отодвигаем*/
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #fff;
+}
+.main-form-btn {
+  display: block;
+  height: 5.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+}
+.wrap {
+  /*ПОСТАНОВКА КНОПКИ ПО ЦЕНТРУ*/
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-block {
+  text-align: right ;
+}
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-weight: 900;
+  font-size: 1.5rem;
+  height: 7rem;
+  line-height: 7rem;
+  /*ПОСТАНОВКА ТЕКСТА ПО ЦЕНТРУ*/
+}
+/*Оформление секции с преимуществами*/
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  transform: scaleY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/svg/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/svg/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: left top;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
