@@ -1,3 +1,3 @@
 # Ildar-karimov.github.io
-Bulat pedik
-[Урок 1](Ildar-karimov.github.io/ex1/)
+Мое портфолио
+[Сайт №1 + админка (сделан по видеоурокам](Ildar-karimov.github.io/ex2/)
