@@ -1,3 +1,4 @@
 # Ildar-karimov.github.io
 Мое портфолио
-[Сайт №1 + админка (сделан по видеоурокам](Ildar-karimov.github.io/ex2/)
+
+[Сайт №1 + админка](ildar-karimov.github.io/ex2/)  (сделан по видеоурокам)
