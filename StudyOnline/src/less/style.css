@@ -1,0 +1,384 @@
+/*шрифт*/
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: url('../fonts/Ubuntu-Bold.eot');
+  src: url('../fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Bold.woff2') format('woff2'), url('../fonts/Ubuntu-Bold.woff') format('woff'), url('../fonts/Ubuntu-Bold.ttf') format('truetype'), url('../fonts/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: url('../fonts/Ubuntu-Medium.eot');
+  src: url('../fonts/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Medium.woff2') format('woff2'), url('../fonts/Ubuntu-Medium.woff') format('woff'), url('../fonts/Ubuntu-Medium.ttf') format('truetype'), url('../fonts/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu-Light';
+  src: url('../fonts/Ubuntu-Light.eot');
+  src: url('../fonts/Ubuntu-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Light.woff2') format('woff2'), url('../fonts/Ubuntu-Light.woff') format('woff'), url('../fonts/Ubuntu-Light.ttf') format('truetype'), url('../fonts/Ubuntu-Light.svg#Ubuntu-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url('../fonts/Ubuntu-Regular.eot');
+  src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Regular.woff2') format('woff2'), url('../fonts/Ubuntu-Regular.woff') format('woff'), url('../fonts/Ubuntu-Regular.ttf') format('truetype'), url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*Basic settings*/
+body {
+  font-family: 'Ubuntu-Medium';
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.slick-active {
+  outline: none;
+}
+.slick-list {
+  padding: 0 0 0 0;
+}
+.arrow {
+  top: 50%;
+  transform: scaleY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+.prev {
+  left: 20px;
+  background: url(../img/arrows/left.svg) center no-repeat;
+  background-size: 70%;
+  transition: background 0.1s ease;
+}
+.prev:hover {
+  background: url(../img/arrows/left-hover.svg) center no-repeat;
+}
+.next {
+  right: 20px;
+  background: url(../img/arrows/right.svg) center no-repeat;
+  background-size: 70%;
+  transition: background 0.1s ease;
+}
+.next:hover {
+  background: url(../img/arrows/right-hover.svg) center no-repeat;
+}
+/*Первый блок*/
+.header {
+  /*Первый слайд*/
+  /*Второй слайд*/
+  /*Третий слайд*/
+}
+.header-logo {
+  margin-bottom: 175px;
+}
+.header-title {
+  margin-top: 30px;
+}
+.header-title h1 {
+  font-size: 60px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+.header-subtitle {
+  margin-top: 50px;
+}
+.header-subtitle p {
+  font-family: 'Ubuntu-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  color: #FFFFFF;
+}
+.header-block1 {
+  padding-top: 45px;
+  padding-bottom: 180px;
+  background: url(../img/slide-1.jpg) center no-repeat;
+}
+.header-block1-link {
+  color: #0ED984;
+  border-bottom: 2.5px solid #0ED984;
+}
+.header-block1-link:hover {
+  color: #0cc175;
+}
+.header-block1-btn {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2.5px dashed #fff;
+  transition: background-color 0.5s ease;
+}
+.header-block1-btn:hover {
+  background-color: #fff;
+  color: #0ED984;
+}
+.header-block2 {
+  padding-top: 45px;
+  padding-bottom: 180px;
+  background: url(../img/slide-2.jpg) center no-repeat;
+}
+.header-block2-link {
+  color: #3577F6;
+  border-bottom: 2.5px solid #3577F6;
+}
+.header-block2-link:hover {
+  color: #4d87f7;
+}
+.header-block2-btn {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2.5px dashed #fff;
+  transition: background-color 0.5s ease;
+}
+.header-block2-btn:hover {
+  background-color: #fff;
+  color: #3577F6;
+}
+.header-block3 {
+  padding-top: 45px;
+  padding-bottom: 180px;
+  background: url(../img/slide-3.jpg) center no-repeat;
+}
+.header-block3-link {
+  color: #D72DF3;
+  border-bottom: 2.5px solid #D72DF3;
+}
+.header-block3-link:hover {
+  color: #d215f2;
+}
+.header-block3-btn {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2.5px dashed #fff;
+  transition: background-color 0.5s ease;
+}
+.header-block3-btn:hover {
+  background-color: #fff;
+  color: #D72DF3;
+}
+/*Второй блок*/
+.features {
+  padding: 150px 0;
+  background: #FCFCFC;
+}
+.features-block-1 {
+  padding-right: 0;
+  border-right: 2px solid #F2F2F2;
+}
+.features-block-2 {
+  border-right: 2px solid #F2F2F2;
+}
+.features .features-title-1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #1D1A1A;
+}
+.features .features-title-1 strong {
+  font-weight: normal;
+  color: #0ED984;
+}
+.features .features-title-2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #1D1A1A;
+}
+.features .features-title-2 strong {
+  font-weight: normal;
+  color: #3577F6;
+}
+.features .features-title-3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #1D1A1A;
+}
+.features .features-title-3 strong {
+  font-weight: normal;
+  color: #D72DF3;
+}
+.features p {
+  font-family: 'Ubuntu-Light';
+  color: #615D5D;
+  font-size: 16px;
+}
+/*Третий блок*/
+.form {
+  padding: 150px 0;
+  background: #F3F3F3;
+}
+.form h2 {
+  font-size: 47px;
+  color: #1D1A1A;
+}
+.form p {
+  margin-top: 25px;
+  font-family: 'Ubuntu-Light';
+  font-size: 16px;
+  color: #615D5D;
+}
+.form .form-phone {
+  margin-left: 10px;
+  margin-right: -10px;
+}
+.form ::-webkit-input-placeholder {
+  color: #C5C5C5;
+  opacity: 100%;
+}
+.form ::-moz-placeholder {
+  color: #C5C5C5;
+  opacity: 100%;
+}
+.form :-moz-placeholder {
+  color: #C5C5C5;
+  opacity: 100%;
+}
+.form :-ms-input-placeholder {
+  color: #C5C5C5;
+  opacity: 100%;
+}
+.form input:hover::-webkit-input-placeholder {
+  color: #999999;
+}
+.form input:hover::-moz-placeholder {
+  color: #999999;
+}
+.form input:hover:-moz-placeholder {
+  color: #999999;
+}
+.form :focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+.form :focus::-moz-placeholder {
+  opacity: 0;
+}
+.form :focus:-moz-placeholder {
+  opacity: 0;
+}
+.form :focus:-ms-input-placeholder {
+  opacity: 0;
+}
+.form input {
+  padding: 15px 0 15px 5px;
+  border: none;
+  color: #1D1A1A;
+}
+.form-form {
+  margin-top: 35px;
+}
+.form span {
+  margin-top: 50px;
+  font-family: 'Ubuntu-Light';
+  font-size: 14px;
+  color: #A6A6A6;
+}
+.form a {
+  font-size: 14px;
+  color: #A6A6A6;
+  border-bottom: #A6A6A6 2px solid;
+}
+.form a:hover {
+  color: #b3b3b3;
+}
+.form-btn {
+  margin-left: 20px;
+  margin-right: -20px;
+  padding: 15px 0;
+  background: #138F5B;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+.form-btn:hover {
+  background: #04643C;
+}
+/*footer*/
+footer {
+  background: #1D1A1A;
+  padding: 15px 0;
+}
+@media (max-width: 767px) {
+  .header {
+    height: 100%;
+  }
+  .header-logo {
+    margin-bottom: 20px;
+  }
+  .header-title h1 {
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+  .header-subtitle {
+    margin-top: 50px;
+  }
+  .header-subtitle p {
+    font-family: 'Ubuntu-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+  }
+  .header-block1 {
+    background: url(../img/bg-mobile/1.jpg) center no-repeat;
+    background-size: 100%;
+  }
+  .header-block2 {
+    background: url(../img/bg-mobile/2.jpg) center no-repeat;
+    background-size: 100%;
+  }
+  .header-block3 {
+    background: url(../img/bg-mobile/3.jpg) center no-repeat;
+    background-size: 100%;
+  }
+  .features {
+    padding: 50px 0;
+  }
+  .features-block-1 {
+    margin-bottom: 15px;
+    padding-right: 2%;
+    border-right: none;
+    border-bottom: 2px solid #F2F2F2;
+  }
+  .features-block-2 {
+    margin-bottom: 15px;
+    border-right: none;
+    border-bottom: 2px solid #F2F2F2;
+  }
+  .form {
+    padding: 50px 0;
+  }
+  .form h2 {
+    font-size: 27px;
+  }
+  .form .form-phone {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .form-btn {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .form input {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
